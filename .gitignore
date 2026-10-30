@@ -1,0 +1,25 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.cache/
+.DS_Store
+
+# Generated training artifacts and large model weights
+lora_results/
+checkpoints/
+wandb/
+runs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.zip
